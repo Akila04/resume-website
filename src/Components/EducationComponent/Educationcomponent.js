@@ -55,7 +55,7 @@ function Educationcomponent() {
                     <span style={{verticalAlign: 'middle'}}><LocationOnIcon />&nbsp;</span> 
                     <span style={{verticalAlign: 'middle'}}>Trichy, TamilNadu</span>
                 </Typography>
-                <Typography style={{fontWeight: '600'}}>Percetage - 93.41%</Typography>
+                <Typography style={{fontWeight: '600'}}>Percentage - 93.41%</Typography>
             </div>
 
         </div>

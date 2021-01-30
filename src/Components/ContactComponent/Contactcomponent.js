@@ -75,7 +75,15 @@ const Contactcomponent = () => {
                                 <LinkedInIcon />
                             </Grid>
                             <Grid item xs={11}>
-                                <Typography style={{fontWeight: '600'}}>www.linkedin.com/in/akila-g-5764991b1/</Typography>
+                                <Typography style={{fontWeight: '600'}}>
+                                    <a
+                                        href="https://www.linkedin.com/in/akila-g-5764991b1/"
+                                        target="_blank"
+                                        style={{color: '#ffffff'}}
+                                    >
+                                        www.linkedin.com/in/akila-g-5764991b1/ 
+                                    </a>
+                                </Typography>
                             </Grid>
                         </Grid>
                     </Grid>
@@ -93,7 +101,15 @@ const Contactcomponent = () => {
                                 <GitHubIcon />
                             </Grid>
                             <Grid item xs={11}>
-                                <Typography style={{fontWeight: '600'}}>github.com/Akila04</Typography>
+                                <Typography style={{fontWeight: '600'}}>
+                                    <a 
+                                        href="https://github.com/Akila04" 
+                                        target="_blank" 
+                                        style={{color: '#ffffff'}}
+                                    >
+                                    github.com/Akila04
+                                    </a>
+                                </Typography>
                             </Grid>
                         </Grid>
                     </Grid>

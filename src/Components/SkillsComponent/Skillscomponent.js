@@ -78,7 +78,7 @@ const Educationcomponent = () => {
                         <Grid item xs={6} >
                             <Typography style={{textAlign: 'left', fontWeight: '600'}}>Java Script</Typography>
                         </Grid>
-                        <Grid item xs={6} >
+                        <Grid item xs={6} style={{textAlign: 'left'}}>
                             <StyledRating
                                 name="hover-feedback"
                                 value={3}
