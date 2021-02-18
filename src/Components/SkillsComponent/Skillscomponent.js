@@ -20,6 +20,18 @@ const useStyles = makeStyles((theme) => ({
     Head: {
         fontSize: '28px',
         fontWeight: '600',
+    },
+    skillscontent: {
+        [theme.breakpoints.down("sm")]: {
+            paddingTop: '0px !important',
+            paddingBottom: '0px !important',
+        },
+    },
+    marginSetup: {
+        margin: '2vh',
+        [theme.breakpoints.down("sm")]: {
+            margin: '1vh'
+        }
     }
 }));
 
@@ -32,8 +44,107 @@ const Educationcomponent = () => {
             <Box component="fieldset" mb={3} borderColor="transparent" style={{paddingLeft: '0px'}}>
                 <div>
                 <Grid container spacing={3}>
-                <Grid item xs={6}>
-                    <Grid container spacing={1} style={{margin: '2vh'}}>
+                <Grid item xs={12} sm={6} className={classes.skillscontent}>
+                    <Grid container spacing={1} className={classes.marginSetup}>
+                        <Grid item xs={6}>
+                            <Typography style={{textAlign: 'left', fontWeight: '600'}}>React JS</Typography>
+                        </Grid>
+                        <Grid item xs={6} style={{textAlign: 'left'}}>
+                            <StyledRating
+                                name="hover-feedback"
+                                value={4.5}
+                                precision={0.5}
+                                readOnly
+                            />
+                        </Grid>
+                    </Grid>
+                    <Grid container spacing={1} className={classes.marginSetup}>
+                        <Grid item xs={6} >
+                            <Typography style={{textAlign: 'left', fontWeight: '600'}}>Redux</Typography>
+                        </Grid>
+                        <Grid item xs={6} style={{textAlign: 'left'}}>
+                            <StyledRating
+                                name="hover-feedback"
+                                value={4}
+                                precision={0.5}
+                                readOnly
+                            // size= "large"
+                            />
+                        </Grid>
+                    </Grid>
+                    <Grid container spacing={1} className={classes.marginSetup}>
+                        <Grid item xs={6} >
+                            <Typography style={{textAlign: 'left', fontWeight: '600'}}>ReactHooks</Typography>
+                        </Grid>
+                        <Grid item xs={6} style={{textAlign: 'left'}}>
+                            <StyledRating
+                                name="hover-feedback"
+                                value={4}
+                                precision={0.5}
+                                readOnly
+                            // size= "large"
+                            />
+                        </Grid>
+                    </Grid>
+                    <Grid container spacing={1} className={classes.marginSetup}>
+                        <Grid item xs={6} >
+                            <Typography style={{textAlign: 'left', fontWeight: '600'}}>Spring Boot</Typography>
+                        </Grid>
+                        <Grid item xs={6} style={{textAlign: 'left'}}>
+                            <StyledRating
+                                name="hover-feedback"
+                                value={4}
+                                precision={0.5}
+                                readOnly
+                            // size= "large"
+                            />
+                        </Grid>
+                    </Grid>
+                    <Grid container spacing={1} className={classes.marginSetup}>
+                        <Grid item xs={6} >
+                            <Typography style={{textAlign: 'left', fontWeight: '600'}}>Material Ui &amp; BootStrap</Typography>
+                        </Grid>
+                        <Grid item xs={6} style={{textAlign: 'left'}}>
+                            <StyledRating
+                                name="hover-feedback"
+                                value={4.5}
+                                precision={0.5}
+                                readOnly
+                            // size= "large"
+                            />
+                        </Grid>
+                    </Grid>
+                </Grid>
+                <Grid item xs={12} sm={6} className={classes.skillscontent}>
+                    <Grid container spacing={1} className={classes.marginSetup}>
+                        <Grid item xs={6} >
+                            <Typography style={{textAlign: 'left', fontWeight: '600'}}>Java Script</Typography>
+                        </Grid>
+                        <Grid item xs={6} style={{textAlign: 'left'}}>
+                            <StyledRating
+                                name="hover-feedback"
+                                value={3.5}
+                                precision={0.5}
+                                readOnly
+                            // size= "large"
+                            />
+                        </Grid>
+                    </Grid>
+                    <Grid container spacing={1} className={classes.marginSetup}>
+                        <Grid item xs={6} >
+                            <Typography style={{textAlign: 'left', fontWeight: '600'}}>CSS</Typography>
+                        </Grid>
+                        <Grid item xs={6} style={{textAlign: 'left'}}>
+                            <StyledRating
+                                name="hover-feedback"
+                                value={4.5}
+                                precision={0.5}
+                                readOnly
+                            // size= "large"
+                            />
+                        </Grid>
+                    </Grid>
+                    <Grid container spacing={1} className={classes.marginSetup}>
                         <Grid item xs={6} >
                             <Typography style={{textAlign: 'left', fontWeight: '600'}}>C Programming</Typography>
                         </Grid>
@@ -43,10 +154,11 @@ const Educationcomponent = () => {
                                 value={4}
                                 precision={0.5}
                                 readOnly
+                            // size= "large"
                             />
                         </Grid>
                     </Grid>
-                    <Grid container spacing={1} style={{margin: '2vh'}}>
+                    <Grid container spacing={1} className={classes.marginSetup}>
                         <Grid item xs={6} >
                             <Typography style={{textAlign: 'left', fontWeight: '600'}}>JAVA</Typography>
                         </Grid>
@@ -60,83 +172,11 @@ const Educationcomponent = () => {
                             />
                         </Grid>
                     </Grid>
-                    <Grid container spacing={1} style={{margin: '2vh'}}>
+                    <Grid container spacing={1} className={classes.marginSetup}>
                         <Grid item xs={6} >
                             <Typography style={{textAlign: 'left', fontWeight: '600'}}>Data Structure &amp; Algorithms</Typography>
                         </Grid>
                         <Grid item xs={6} style={{textAlign: 'left'}}>
-                            <StyledRating
-                                name="hover-feedback"
-                                value={4}
-                                precision={0.5}
-                                readOnly
-                            // size= "large"
-                            />
-                        </Grid>
-                    </Grid>
-                    <Grid container spacing={1} style={{margin: '2vh'}}>
-                        <Grid item xs={6} >
-                            <Typography style={{textAlign: 'left', fontWeight: '600'}}>Java Script</Typography>
-                        </Grid>
-                        <Grid item xs={6} style={{textAlign: 'left'}}>
-                            <StyledRating
-                                name="hover-feedback"
-                                value={3}
-                                precision={0.5}
-                                readOnly
-                            // size= "large"
-                            />
-                        </Grid>
-                    </Grid>
-                </Grid>
-                <Grid item xs={6}>
-                    <Grid container spacing={1} style={{margin: '2vh'}}>
-                        <Grid item xs={6} >
-                            <Typography style={{textAlign: 'left', fontWeight: '600'}}>React JS</Typography>
-                        </Grid>
-                        <Grid item xs={6} >
-                            <StyledRating
-                                name="hover-feedback"
-                                value={4.5}
-                                precision={0.5}
-                                readOnly
-                            // size= "large"
-                            />
-                        </Grid>
-                    </Grid>
-                    <Grid container spacing={1} style={{margin: '2vh'}}>
-                        <Grid item xs={6} >
-                            <Typography style={{textAlign: 'left', fontWeight: '600'}}>Redux</Typography>
-                        </Grid>
-                        <Grid item xs={6} >
-                            <StyledRating
-                                name="hover-feedback"
-                                value={4}
-                                precision={0.5}
-                                readOnly
-                            // size= "large"
-                            />
-                        </Grid>
-                    </Grid>
-                    <Grid container spacing={1} style={{margin: '2vh'}}>
-                        <Grid item xs={6} >
-                            <Typography style={{textAlign: 'left', fontWeight: '600'}}>Spring Boot</Typography>
-                        </Grid>
-                        <Grid item xs={6} >
-                            <StyledRating
-                                name="hover-feedback"
-                                value={3}
-                                precision={0.5}
-                                readOnly
-                            // size= "large"
-                            />
-                        </Grid>
-                    </Grid>
-                    <Grid container spacing={1} style={{margin: '2vh'}}>
-                        <Grid item xs={6} >
-                            <Typography style={{textAlign: 'left', fontWeight: '600'}}>Material Ui &amp; BootStrap</Typography>
-                        </Grid>
-                        <Grid item xs={6} >
                             <StyledRating
                                 name="hover-feedback"
                                 value={4.5}

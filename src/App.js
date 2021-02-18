@@ -3,15 +3,11 @@ import ParticleBackground from './Components/ParticleBackground';
 import {BrowserRouter as Router} from 'react-router-dom'
 import Homepage from './Components/HomePage/Homepage';
 import Navcomponent from './Components/NavComponent/Navcomponent';
-import { useState } from 'react';
+import DrawerMenu from './Components/Drawermenu/DrawerMenu'
 
 function App() {
-  const [value,setValue] = useState(0);
 
-  const tabchange = (event,value) => {
-    setValue(value);
-    console.log(value);
-  } 
+  const ismobile = window.screen.width < 500 ? true : false;
 
   return (
     <div className="App">
@@ -36,20 +32,10 @@ function App() {
             //height: "100%"
           }}
         >
-          <Navcomponent tabchange={tabchange}/>
+         {ismobile ? <DrawerMenu /> : <Navcomponent />} 
         </div>
-        <div
-          style={{
-            position: "absolute",
-            top: '50%',
-            left: '55%',
-            width: "40%",
-            transform: 'translate(-55%, -50%)',
-           color:'#ffffff',
-          }}
-        >
-          <Homepage value={value}/>
-        {/**   <Detailscomponent />*/}
+        <div className='homepageComponent'>
+          <Homepage />
         </div>
       </Router>
     </div>

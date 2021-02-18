@@ -39,14 +39,14 @@ const Contactcomponent = () => {
                                 <CallIcon />
                             </Grid>
                             <Grid item xs={11}>
-                                <Typography style={{fontWeight: '600'}}>(+91) 63815-50811</Typography>
+                                <Typography style={{fontWeight: '600'}}>&nbsp;(+91) 63815-50811</Typography>
                             </Grid>
                         </Grid>
                     </Grid>
                 </Grid>
                 <Grid container spacing={3}>
                     <Grid item xs={2}>
-                        <Typography style={{fontWeight: '600', color: '#ffb400'}}>Email Id</Typography>
+                        <Typography style={{fontWeight: '600', color: '#ffb400'}}>Email</Typography>
                     </Grid>
                     <Grid item xs={1} style={{textAlign: 'right'}}>
                         <Typography>:</Typography>
@@ -57,7 +57,7 @@ const Contactcomponent = () => {
                                 <EmailIcon />
                             </Grid>
                             <Grid item xs={11}>
-                                <Typography style={{fontWeight: '600'}}>akilag0404@gmail.com</Typography>
+                                <Typography style={{fontWeight: '600'}}>&nbsp;akilag0404@gmail.com</Typography>
                             </Grid>
                         </Grid>
                     </Grid>
@@ -81,7 +81,7 @@ const Contactcomponent = () => {
                                         target="_blank"
                                         style={{color: '#ffffff'}}
                                     >
-                                        www.linkedin.com/in/akila-g-5764991b1/ 
+                                        &nbsp;www.linkedin.com/in/akila-g-5764991b1/ 
                                     </a>
                                 </Typography>
                             </Grid>
@@ -89,8 +89,8 @@ const Contactcomponent = () => {
                     </Grid>
                 </Grid>
                 <Grid container spacing={3}>
-                    <Grid item xs={2}>
-                        <Typography style={{fontWeight: '600', color: '#ffb400'}}>Github Id</Typography>
+                    <Grid item xs={2} style={{paddingRight: '0px !important'}}>
+                        <Typography style={{fontWeight: '600', color: '#ffb400'}}>Github</Typography>
                     </Grid>
                     <Grid item xs={1} style={{textAlign: 'right'}}>
                         <Typography>:</Typography>
@@ -107,7 +107,7 @@ const Contactcomponent = () => {
                                         target="_blank" 
                                         style={{color: '#ffffff'}}
                                     >
-                                    github.com/Akila04
+                                    &nbsp;github.com/Akila04
                                     </a>
                                 </Typography>
                             </Grid>

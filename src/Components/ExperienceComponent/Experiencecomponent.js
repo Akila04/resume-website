@@ -12,6 +12,11 @@ const useStyles = makeStyles((theme) => ({
     decs : {
         marginBottom: '4px',
         marginTop: '4px'
+    },
+    expcontent: {
+        [theme.breakpoints.down("sm")]: {
+            fontSize: '13px',
+        },
     }
 }));
 
@@ -19,7 +24,7 @@ const useStyles = makeStyles((theme) => ({
 const Experiencecomponent = () => {
     const classes = useStyles();
     return(
-        <div>
+        <div className={classes.expcontent}> 
             <Typography className={classes.Head}>Experience</Typography>
             <hr style={{opacity: '0.7',width: '100%'}} />
             <Grid container spacing={3}>

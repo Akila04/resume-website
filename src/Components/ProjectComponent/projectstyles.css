@@ -1,0 +1,10 @@
+.projectcon {
+    font-size: 17px;
+}
+
+@media only screen and (max-width: 600px) {
+    .projectcon {
+        font-size: 13px;
+    }
+} 
+
