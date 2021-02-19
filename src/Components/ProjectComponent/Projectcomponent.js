@@ -24,6 +24,10 @@ const useStyles = makeStyles((theme) => ({
         [theme.breakpoints.down("sm")]: {
             fontSize: '14px',
         }
+    },
+    paddingZero: {
+        marginTop: '0px',
+        marginBottom: '0px'
     }
 }));
 
@@ -31,7 +35,7 @@ const useStyles = makeStyles((theme) => ({
 const Projectcomponent = () => {
     const classes = useStyles();
     return(
-        <div>
+        <div className='rootComponent'>
             <Typography className={classes.Head}>Personal Projects</Typography>
             <hr style={{opacity: '0.7',width: '100%',marginBottom: '5vh'}} />
             <Grid container spacing={1}>
@@ -39,31 +43,37 @@ const Projectcomponent = () => {
                     Resume :
                 </Grid>
                 <Grid item xs={12} sm={9} style={{textAlign: 'justify'}} className='projectcon'>
-                    <Grid item xs={12} style={{fontWeight: '600',lineHeight: '3.5vh'}}>
+                    <Grid item xs={12} style={{fontWeight: '600',lineHeight: '3.5vh', marginBottom: '25px'}}>
                         Created a Resume Website where the user could find my qualifications, skills and so on...
                     </Grid>
                     <Grid container spacing={1}>
                         <Grid item xs={3} sm={3} style={{fontWeight: '600'}}>
-                            <p>Website </p>
-                            <p>Source Code</p>
+                            <p  className={classes.paddingZero}>Website </p>
                         </Grid>
                         <Grid item xs={9} sm={9}>
-                           <p> :&nbsp;&nbsp;
+                           <p style={{wordBreak: 'break-all', textIndent: '-1.5vh', paddingLeft: '1.5vh'}}  className={classes.paddingZero}> :&nbsp;
                                 <a 
                                     href="https://gallant-kalam-8a8287.netlify.app/" 
                                     target="_blank" 
                                     style={{color:'#FFA07A'}}
                                 >
-                                    https://gallant-kalam-8a8287.netlify.app/
+                                    https://gallant-kalam-8a8287.netlify.app
                                 </a>
                             </p>
-                           <p> :&nbsp;&nbsp;
+                        </Grid>
+                    </Grid>
+                    <Grid container spacing={1}>
+                        <Grid item xs={3} sm={3} style={{fontWeight: '600'}}>
+                            <p >Source Code </p>
+                        </Grid>
+                        <Grid item xs={9} sm={9}>
+                           <p style={{wordBreak: 'break-all', textIndent: '-1.5vh', paddingLeft: '1.5vh'}}> :&nbsp;
                                 <a 
                                     href="https://github.com/Akila04/resume-website" 
                                     target="_blank" 
                                     style={{color:'#FFA07A'}}
                                 >
-                                https://github.com/Akila04/resume-website
+                                    https://github.com/Akila04/resume-website
                                 </a>
                             </p>
                         </Grid>
@@ -75,33 +85,39 @@ const Projectcomponent = () => {
                     WeatherApp :
                 </Grid>
                 <Grid item xs={12} sm={9} style={{textAlign: 'justify'}} className='projectcon'>
-                    <Grid item xs={12} style={{fontWeight: '600',lineHeight: '3.5vh'}}>
+                    <Grid item xs={12} style={{fontWeight: '600',lineHeight: '3.5vh', marginBottom: '25px'}}>
                         Created a Web Application which provides the weather details of the given city.
                     </Grid>
                     <Grid container spacing={1}>
-                        <Grid item xs={3} style={{fontWeight: '600'}}>
-                            <p>Website </p>
-                            <p>Source Code</p>
+                        <Grid item xs={3} sm={3} style={{fontWeight: '600'}}>
+                            <p  className={classes.paddingZero}>Website</p>
                         </Grid>
-                        <Grid item xs={9} style={{wordBreak:'break-all'}}>
-                           <p> :&nbsp;&nbsp;
+                        <Grid item xs={9} sm={9}>
+                           <p style={{wordBreak: 'break-all', textIndent: '-1.5vh', paddingLeft: '1.5vh'}} className={classes.paddingZero}> :&nbsp;
                                 <a 
-                                    href="https://master.d3prrluircykis.amplifyapp.com" 
+                                    href="https://master.d3prrluircykis.amplifyapp.com/" 
                                     target="_blank" 
                                     style={{color:'#FFA07A'}}
-                                >   
-                                    https://master.d3prrluircykis.amplifyapp.com
+                                >
+                                https://master.d3prrluircykis.amplifyapp.com
                                 </a>
                             </p>
-                           <p> :&nbsp;&nbsp;
+                        </Grid>
+                    </Grid>
+                    <Grid container spacing={1}>
+                        <Grid item xs={3} sm={3} style={{fontWeight: '600'}}>
+                            <p >Source Code </p>
+                        </Grid>
+                        <Grid item xs={9} sm={9}>
+                           <p style={{wordBreak: 'break-all', textIndent: '-1.5vh', paddingLeft: '1.5vh'}}> :&nbsp;
                                 <a 
-                                    href="https://github.com/Akila04/myweatherapp" 
+                                    href="https://master.dv9eo8ex2w3w0.amplifyapp.com" 
                                     target="_blank" 
                                     style={{color:'#FFA07A'}}
                                 >
                                     https://github.com/Akila04/myweatherapp
                                 </a>
-                           </p>
+                            </p>
                         </Grid>
                     </Grid>
                 </Grid>
@@ -111,37 +127,44 @@ const Projectcomponent = () => {
                     Tic-Tac-Toe :
                 </Grid>
                 <Grid item xs={12} sm={9} style={{textAlign: 'justify'}} className='projectcon'>
-                    <Grid item xs={12} style={{fontWeight: '600',lineHeight: '3.5vh'}}>
+                    <Grid item xs={12} style={{fontWeight: '600',lineHeight: '3.5vh', marginBottom: '25px'}}>
                         Created a Tic Tac Toe application where user can play Tic Tac Toe game in web app.
                     </Grid>
                     <Grid container spacing={1}>
                         <Grid item xs={3} sm={3} style={{fontWeight: '600'}}>
-                            <p>Website </p>
-                            <p>Source Code</p>
+                            <p  className={classes.paddingZero}>Website </p>
                         </Grid>
                         <Grid item xs={9} sm={9}>
-                           <p> :&nbsp;&nbsp;
+                           <p style={{wordBreak: 'break-all', textIndent: '-1.5vh', paddingLeft: '1.5vh'}}  className={classes.paddingZero}> :&nbsp;
                                 <a 
                                     href="https://master.dv9eo8ex2w3w0.amplifyapp.com" 
                                     target="_blank" 
                                     style={{color:'#FFA07A'}}
                                 >
-                                    https://master.dv9eo8ex2w3w0.amplifyapp.com
+                                    https://master.d3prrluircykis.amplifyapp.com
                                 </a>
                             </p>
-                           <p> :&nbsp;&nbsp;
+                        </Grid>
+                    </Grid>
+                    <Grid container spacing={1}>
+                        <Grid item xs={3} sm={3} style={{fontWeight: '600'}}>
+                            <p >Source Code </p>
+                        </Grid>
+                        <Grid item xs={9} sm={9}>
+                           <p style={{wordBreak: 'break-all', textIndent: '-1.5vh', paddingLeft: '1.5vh'}}> :&nbsp;
                                 <a 
                                     href="https://github.com/Akila04/tic-tac-toe" 
                                     target="_blank" 
                                     style={{color:'#FFA07A'}}
                                 >
-                                https://github.com/Akila04/tic-tac-toe
+                                     https://github.com/Akila04/tic-tac-toe
                                 </a>
                             </p>
                         </Grid>
                     </Grid>
                 </Grid>
             </Grid>
+            
         </div>
     );
 }

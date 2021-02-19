@@ -6,5 +6,10 @@
     .projectcon {
         font-size: 13px;
     }
+    .rootComponent {
+        height: 90vh;
+        overflow-y: scroll;
+        padding: 15px;
+    }
 } 
 
