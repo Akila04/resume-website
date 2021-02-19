@@ -15,6 +15,9 @@ const useStyles = makeStyles((theme) => ({
     decs : {
         marginBottom: '4px',
         marginTop: '4px'
+    },
+    paddingSetup: {
+        paddingRight: '0px !important',
     }
 }));
 
@@ -35,7 +38,7 @@ const Contactcomponent = () => {
                     </Grid>
                     <Grid item xs={9}>
                         <Grid container spacing={3}>
-                            <Grid item xs={1}>
+                            <Grid item xs={1} className={classes.paddingSetup}>
                                 <CallIcon />
                             </Grid>
                             <Grid item xs={11}>
@@ -53,7 +56,7 @@ const Contactcomponent = () => {
                     </Grid>
                     <Grid item xs={9}>
                         <Grid container spacing={3}>
-                            <Grid item xs={1}>
+                            <Grid item xs={1} className={classes.paddingSetup}>
                                 <EmailIcon />
                             </Grid>
                             <Grid item xs={11}>
@@ -71,7 +74,7 @@ const Contactcomponent = () => {
                     </Grid>
                     <Grid item xs={9}>
                         <Grid container spacing={3}>
-                            <Grid item xs={1}>
+                            <Grid item xs={1} className={classes.paddingSetup}>
                                 <LinkedInIcon />
                             </Grid>
                             <Grid item xs={11}>
@@ -97,7 +100,7 @@ const Contactcomponent = () => {
                     </Grid>
                     <Grid item xs={9}>
                         <Grid container spacing={3}>
-                            <Grid item xs={1}>
+                            <Grid item xs={1} className={classes.paddingSetup}>
                                 <GitHubIcon />
                             </Grid>
                             <Grid item xs={11}>

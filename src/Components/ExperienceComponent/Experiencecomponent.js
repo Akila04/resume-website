@@ -37,11 +37,11 @@ const Experiencecomponent = () => {
                     </Typography>
                     <ul style={{textAlign: 'left', lineHeight: '4vh',fontWeight: '550', opacity: '0.9'}}>
                         <li className={classes.decs}> Developed user interface for a product called Legal Mind and managed webAPIs for remote interaction</li>
-                        <li className={classes.decs}> Designed and Developed the product using React for user interface, CSS, Material UI for styling and REDUX for state management</li>
+                        <li className={classes.decs}> Designed and Developed the product using React for user interface, REDUX for state management and CSS &amp; Material UI for styling</li>
                         <li className={classes.decs}> Used AXIOS for fetching API Data in ReactJS along with REDUX promise as a middleware &amp; Integrate with various Databases for receiving the data in the form of JSON and AJAX</li>
                         <li className={classes.decs}> Used Media Queries for Responsive web designing to be compatible in all devices. </li>
                         <li className={classes.decs}> Used Git Version control for the source code management of the application</li>
-                        <li className={classes.decs}> Environment: ReactJS, REDUX, JSON, Material UI, CSS, React Hooks</li>
+                        <li className={classes.decs}> Technologies: ReactJS, React Hooks, REDUX, JSON,  Material UI &amp; CSS</li>
                     </ul>
                 </Grid>
             </Grid>
