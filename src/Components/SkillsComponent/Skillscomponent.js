@@ -102,7 +102,7 @@ const Educationcomponent = () => {
                     </Grid>
                     <Grid container spacing={1} className={classes.marginSetup}>
                         <Grid item xs={6} >
-                            <Typography style={{textAlign: 'left', fontWeight: '600'}}>Material Ui &amp; BootStrap</Typography>
+                            <Typography style={{textAlign: 'left', fontWeight: '600'}}>Material UI &amp; BootStrap</Typography>
                         </Grid>
                         <Grid item xs={6} style={{textAlign: 'left'}}>
                             <StyledRating

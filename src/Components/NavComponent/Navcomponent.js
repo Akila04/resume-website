@@ -10,7 +10,7 @@ const Navcomponent = (props) => {
 
     const path = window.location.pathname === '/' ? '/home' : window.location.pathname; 
     const [value,setValue] = useState(path);
-    const mobile = window.screen.width < 500 ? true : false;
+    const mobile = window.screen.width < 600 ? true : false;
     let history = useHistory();
 
     const handleChange = (e,value) => {

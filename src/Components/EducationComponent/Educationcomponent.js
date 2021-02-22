@@ -33,7 +33,7 @@ function Educationcomponent() {
                 <Typography className={classes.degree}>B.E Computer Science Engineering</Typography>
                 <Typography className={classes.university}>
                     <span style={{verticalAlign: 'middle'}}><SchoolIcon />&nbsp;</span>
-                    Anna University
+                    St.Joseph's college of Engineering, OMR
                 </Typography>
                 <Typography style={{textAlign: 'center',opacity: '0.8'}}>
                     <span style={{verticalAlign: 'middle'}}><EventIcon />&nbsp;&nbsp;</span>

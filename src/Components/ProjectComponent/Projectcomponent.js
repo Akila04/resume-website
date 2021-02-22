@@ -44,7 +44,7 @@ const Projectcomponent = () => {
                 </Grid>
                 <Grid item xs={12} sm={9} style={{textAlign: 'justify'}} className='projectcon'>
                     <Grid item xs={12} style={{fontWeight: '600',lineHeight: '3.5vh', marginBottom: '25px'}}>
-                        Created a Resume Website where the user could find my qualifications, skills and so on...
+                        Created a Resume Website where the user can find my qualifications, skills, experience etc.
                     </Grid>
                     <Grid container spacing={1}>
                         <Grid item xs={3} sm={3} style={{fontWeight: '600'}}>
@@ -53,11 +53,11 @@ const Projectcomponent = () => {
                         <Grid item xs={9} sm={9}>
                            <p style={{wordBreak: 'break-all', textIndent: '-1.5vh', paddingLeft: '1.5vh'}}  className={classes.paddingZero}> :&nbsp;
                                 <a 
-                                    href="https://gallant-kalam-8a8287.netlify.app/" 
+                                    href="https://akilag.netlify.app/" 
                                     target="_blank" 
                                     style={{color:'#FFA07A'}}
                                 >
-                                    https://gallant-kalam-8a8287.netlify.app
+                                    https://akilag.netlify.app/
                                 </a>
                             </p>
                         </Grid>

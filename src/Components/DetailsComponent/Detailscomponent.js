@@ -1,6 +1,7 @@
 import React from 'react';
 import Avatar from '@material-ui/core/Avatar';
-import ProfilePhoto from '../../Images/Profile.jpg';
+//import ProfilePhoto from '../../Images/Profile.jpg';
+import ProfilePhoto from '../../Images/Akila.jpg'
 import Typography from '@material-ui/core/Typography';
 
 function Detailscomponent(){
@@ -34,7 +35,7 @@ function Detailscomponent(){
                 }}
             >
             Sense of User Experience, Product Design and Development.
-            Product Enthusiast and keen on working with product-based entity.
+            Product Enthusiast and keen on working with product/service based entity.
             Looking to work with cutting-edge technologies, increasing my skill base.
             </Typography>
         </div>

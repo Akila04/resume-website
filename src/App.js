@@ -7,7 +7,7 @@ import DrawerMenu from './Components/Drawermenu/DrawerMenu'
 
 function App() {
 
-  const ismobile = window.screen.width < 500 ? true : false;
+  const ismobile = window.screen.width < 600 ? true : false;
 
   return (
     <div className="App">
