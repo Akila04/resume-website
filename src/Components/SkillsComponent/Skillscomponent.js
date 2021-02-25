@@ -32,13 +32,20 @@ const useStyles = makeStyles((theme) => ({
         [theme.breakpoints.down("sm")]: {
             margin: '1vh'
         }
+    },
+    expcontent: {
+        [theme.breakpoints.down("sm")]: {
+            fontSize: '13px',
+            height: '80vh',
+            overflowY: 'scroll',
+        },
     }
 }));
 
 const Educationcomponent = () => {
     const classes = useStyles();
     return(
-        <div>
+        <div className={classes.expcontent}>
             <Typography className={classes.Head}>Skills</Typography>
             <hr style={{opacity: '0.7',width: '100%'}} />
             <Box component="fieldset" mb={3} borderColor="transparent" style={{paddingLeft: '0px'}}>
