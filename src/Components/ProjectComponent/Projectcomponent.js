@@ -28,7 +28,7 @@ const useStyles = makeStyles((theme) => ({
     paddingZero: {
         marginTop: '0px',
         marginBottom: '0px'
-    }
+    },
 }));
 
 

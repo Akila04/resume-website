@@ -16,6 +16,9 @@ const useStyles = makeStyles((theme) => ({
     expcontent: {
         [theme.breakpoints.down("sm")]: {
             fontSize: '13px',
+            height: '80vh',
+            overflowY: 'scroll',
+            
         },
     }
 }));

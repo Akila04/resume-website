@@ -1,13 +1,23 @@
 .projectcon {
     font-size: 17px;
 }
+.rootComponent {
+    height: 80vh;
+    overflow-y: scroll ;
+    padding: 15px;
+    display: grid;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
 
 @media only screen and (max-width: 600px) {
     .projectcon {
         font-size: 13px;
     }
     .rootComponent {
-        height: 90vh;
+        height: 80vh;
         overflow-y: scroll;
         padding: 15px;
     }
