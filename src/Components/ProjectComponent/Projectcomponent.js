@@ -95,11 +95,11 @@ const Projectcomponent = () => {
                         <Grid item xs={9} sm={9}>
                            <p style={{wordBreak: 'break-all', textIndent: '-1.5vh', paddingLeft: '1.5vh'}} className={classes.paddingZero}> :&nbsp;
                                 <a 
-                                    href="https://master.d3prrluircykis.amplifyapp.com/" 
+                                    href="https://weatherapp-website.netlify.app/" 
                                     target="_blank" 
                                     style={{color:'#FFA07A'}}
                                 >
-                                https://master.d3prrluircykis.amplifyapp.com
+                                https://weatherapp-website.netlify.app/
                                 </a>
                             </p>
                         </Grid>
@@ -111,7 +111,7 @@ const Projectcomponent = () => {
                         <Grid item xs={9} sm={9}>
                            <p style={{wordBreak: 'break-all', textIndent: '-1.5vh', paddingLeft: '1.5vh'}}> :&nbsp;
                                 <a 
-                                    href="https://master.dv9eo8ex2w3w0.amplifyapp.com" 
+                                    href="https://github.com/Akila04/myweatherapp" 
                                     target="_blank" 
                                     style={{color:'#FFA07A'}}
                                 >
@@ -137,11 +137,11 @@ const Projectcomponent = () => {
                         <Grid item xs={9} sm={9}>
                            <p style={{wordBreak: 'break-all', textIndent: '-1.5vh', paddingLeft: '1.5vh'}}  className={classes.paddingZero}> :&nbsp;
                                 <a 
-                                    href="https://master.dv9eo8ex2w3w0.amplifyapp.com" 
+                                    href="https://tic-tac-toe-xo-game.netlify.app/" 
                                     target="_blank" 
                                     style={{color:'#FFA07A'}}
                                 >
-                                    https://master.d3prrluircykis.amplifyapp.com
+                                    https://tic-tac-toe-xo-game.netlify.app/
                                 </a>
                             </p>
                         </Grid>
