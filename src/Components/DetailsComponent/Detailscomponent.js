@@ -24,7 +24,7 @@ function Detailscomponent(){
                     fontWeight: '600' 
                 }}
             >
-                Front-end Developer
+                Full Stack Developer
             </Typography>
             <Typography
                 style={{
