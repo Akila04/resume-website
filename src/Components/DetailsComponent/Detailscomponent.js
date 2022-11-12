@@ -35,7 +35,7 @@ function Detailscomponent(){
                 }}
             >
             Sense of User Experience, Product Design and Development.
-            Product Enthusiast and keen on working with product/service based entity.
+            Product Enthusiast and keen on working with Product/Service based entity.
             Looking to work with cutting-edge technologies, increasing my skill base.
             </Typography>
         </div>
